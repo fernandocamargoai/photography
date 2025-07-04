@@ -50,6 +50,9 @@ and thumbnail generation__. So if you're lazy like me then you can just do the f
 5. Run `$ gulp resize` to resize the images and to generate thumbnails automatically
 6. Push your changes to github.com by `$ git add --all` and `$ git commit -m "a nice commit message"` and then finally `$ git push origin master`
 
+For images in portrait format, you can resize them as follows:
+`$ convert images/fulls/2025-06-14_0075.jpg -resize 512x388 -background "rgb(31, 34, 36)" -gravity center -extent 512x388 images/thumbs/2025-06-14_0075.jpg`
+
 ### Contact Form
 You can make the contact form work without the need of any server-side code. Just follow this [article on github](https://github.com/dwyl/html-form-send-email-via-google-script-without-server) which uses a simple google script to send emails or to upload to a google spreadsheet when someone submits the form.
 
