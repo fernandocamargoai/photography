@@ -14,7 +14,7 @@ header:
  subtitle: "by Fernando Camargo"
 footer:
  name: "Hey there, my name is Fernando Camargo"
- bio: "I am an AI Engineer from Brazil, living in Canada. I have been taking pictures for over 10 years as a hobby and now decided to take it to a new level."
+ bio: "I am an AI Engineer from Brazil, living in Canada. I have been taking pictures for over 10 years as a hobby and now decided to take it to next level, building this portfolio."
 web_design: "AJ"
 # Configure which exif data to display
 # Tag is the actual exif tag, icon is a fontawesome icon. Use JSON notation without line breaks
